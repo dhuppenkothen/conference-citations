@@ -5,7 +5,7 @@
 ## Astronomy Conferences?##
 ###########################
 
-import ads.sandbox as ads
+import ads.sandbox as ads # This prevents you from using all 5000 information requests. Requests don't count when you're in sandbox mode.
 #import ads
 
 startHEAD = 10032015 # 6 months before HEAD
